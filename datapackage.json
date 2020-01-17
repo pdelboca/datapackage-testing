@@ -97,6 +97,89 @@
             ""
           ]
         }
+      },
+      {
+        "dialect": {
+          "caseSensitiveHeader": false,
+          "delimiter": ",",
+          "doubleQuote": true,
+          "header": true,
+          "lineTerminator": "\r\n",
+          "quoteChar": "\"",
+          "skipInitialSpace": false
+        },
+        "encoding": "utf-8",
+        "format": "csv",
+        "name": "airport-codes-in-lfs",
+        "path": "data/airport-codes-in-lfs.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "format": "default",
+              "name": "ident",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "type",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "elevation_ft",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "continent",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "iso_country",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "iso_region",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "municipality",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "gps_code",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "iata_code",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "local_code",
+              "type": "string"
+            },
+            {
+              "format": "default",
+              "name": "coordinates",
+              "type": "string"
+            }
+          ],
+          "missingValues": [
+            ""
+          ]
+        }
       }
     ],
     "sources": [
